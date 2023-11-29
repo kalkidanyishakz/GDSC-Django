@@ -1,7 +1,8 @@
 # GDSC-Django
 GDSC Django training 
-<style>
-  .name{
-    background:green;
-</style>
-<h1 class='name'>hllo</h1>
+
+<ul>
+  <li>hello</li>
+  <li>hello</li>
+  <li>hello</li>
+</ul>
