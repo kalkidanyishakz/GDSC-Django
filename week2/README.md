@@ -4,7 +4,8 @@ Create a simple student database program using Python dictionaries and basic dat
 
 ### Add Student
 <pre>
-  Allow the user to add a new student to the database. Collect information such as name, age, grade, and any other relevant details.
+  Allow the user to add a new student to the database. Collect information such as name, 
+  age, grade, and any other relevant details.
 </pre>
 ### View Student
 <pre>
