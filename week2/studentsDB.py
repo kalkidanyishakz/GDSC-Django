@@ -1,14 +1,6 @@
 
 students_list=[]
-'''
-more functionality
-def validated_option_input()
-def validated_property_input()
-def validated_age_input()
-def validated_grade_input()
-def validated_section_input()--done
-def validated_id_input()----done
-'''
+
 def validated_name_input(prompt):
     name=input(prompt)
     if name.strip() =="":
