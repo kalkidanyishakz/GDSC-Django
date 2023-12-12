@@ -36,13 +36,11 @@ def power_operation(base, exponent, **kwargs):
     
 
 def apply_operations(operations):
-    output=[]
-    for my_tuple in operations:
-        output.append(
-            my_tuple[0](
-                my_tuple[1][0], 
-                my_tuple[1][1]
-                )
-            )
-    return output
-
+    def each(my_tuple):
+        lambda_func=my_tuple[0]
+        x=my_tuple[1][0]
+        y=my_tuple[1][1]
+        return lambda_func(x,y)
+    
+    output=map(each, operations)
+    return list(output)
