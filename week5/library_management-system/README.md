@@ -15,40 +15,48 @@ classes
             <li>
             displaying book details and updating the availability status.
             </li>
-        <ul>
+        </ul>
     </li>
     <li>
     user
+        <ul>
             <li>
             user_id, name, and books_borrowed
             </li>
             <li>
             displaying user details, borrowing books, and returning books.
             </li>
+        </ul>
     </li>
     <li>
     library
+        <ul>
             <li>
             collection of books and user information.
             </li>
             <li>
             adding books to the library, registering new users, and handling book transactions.
             </li>
+        </ul>
     </li>
     <li>
     transaction
+        <ul>
             <li>
             book transactions (borrowing and returning).
             </li>
             <li>
             Implement methods for recording transactions and generating transaction reports.
             </li>
+        </ul>
     </li>
     <li>
     command-line interface:
+        <ul>
             <li>
             adding books, registering users, borrowing books, returning books, and viewing reports.
             </li>
+        </ul>
     </li>
 </ul>
 
