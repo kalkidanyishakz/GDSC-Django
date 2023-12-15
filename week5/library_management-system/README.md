@@ -40,7 +40,7 @@ The system should use OOP principles to model entities like books, users, and tr
         </ul>
     </li>
     <li>
-   [] transaction
+   [ ] transaction
         <ul>
             <li>
             book transactions (borrowing and returning).
@@ -51,7 +51,7 @@ The system should use OOP principles to model entities like books, users, and tr
         </ul>
     </li>
     <li>
-   [] command-line interface:
+   [ ] command-line interface:
         <ul>
             <li>
             adding books, registering users, borrowing books, returning books, and viewing reports.
