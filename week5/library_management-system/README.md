@@ -8,27 +8,47 @@ classes
 <ul>
     <li>
     book
-        - title, author, ISBN, and availability_status.
-        - displaying book details and updating the availability status.
+        <ul>
+            <li>
+            title, author, ISBN, and availability_status.
+            </li>
+            <li>
+            displaying book details and updating the availability status.
+            </li>
+        <ul>
     </li>
     <li>
     user
-        - user_id, name, and books_borrowed
-        - displaying user details, borrowing books, and returning books.
+            <li>
+            user_id, name, and books_borrowed
+            </li>
+            <li>
+            displaying user details, borrowing books, and returning books.
+            </li>
     </li>
     <li>
     library
-        - collection of books and user information.
-        - adding books to the library, registering new users, and handling book transactions.
+            <li>
+            collection of books and user information.
+            </li>
+            <li>
+            adding books to the library, registering new users, and handling book transactions.
+            </li>
     </li>
     <li>
     transaction
-        - book transactions (borrowing and returning).
-        - Implement methods for recording transactions and generating transaction reports.
+            <li>
+            book transactions (borrowing and returning).
+            </li>
+            <li>
+            Implement methods for recording transactions and generating transaction reports.
+            </li>
     </li>
     <li>
     command-line interface:
-        - adding books, registering users, borrowing books, returning books, and viewing reports.
+            <li>
+            adding books, registering users, borrowing books, returning books, and viewing reports.
+            </li>
     </li>
 </ul>
 
