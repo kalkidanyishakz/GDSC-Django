@@ -109,7 +109,9 @@ class Library:
         for transaction in self.transactions:
             print(f'{transaction.user_id} {transaction.action} {transaction.book_title}')
     
-        
+
+
+       
 book1 = Book("Python Programming", "John Doe", "978-0134853987")
 book2 = Book("Data Structures and Algorithms", "Jane Smith", "978-0262033848")
 
