@@ -4,10 +4,10 @@ Build a command-line-based library management system where users can perform ope
 adding books, borrowing books, returning books, and viewing book details. 
 The system should use OOP principles to model entities like books, users, and transactions.
 
-classes
+<h4>classes</h4>
 <ul>
     <li>
-    book
+   [x] book
         <ul>
             <li>
             title, author, ISBN, and availability_status.
@@ -18,7 +18,7 @@ classes
         </ul>
     </li>
     <li>
-    user
+   [x] user
         <ul>
             <li>
             user_id, name, and books_borrowed
@@ -29,7 +29,7 @@ classes
         </ul>
     </li>
     <li>
-    library
+   [x] library
         <ul>
             <li>
             collection of books and user information.
@@ -40,7 +40,7 @@ classes
         </ul>
     </li>
     <li>
-    transaction
+   [x] transaction
         <ul>
             <li>
             book transactions (borrowing and returning).
@@ -51,7 +51,7 @@ classes
         </ul>
     </li>
     <li>
-    command-line interface:
+   [ ] command-line interface:
         <ul>
             <li>
             adding books, registering users, borrowing books, returning books, and viewing reports.
