@@ -40,7 +40,7 @@ The system should use OOP principles to model entities like books, users, and tr
         </ul>
     </li>
     <li>
-   [ ] transaction
+   [x] transaction
         <ul>
             <li>
             book transactions (borrowing and returning).
